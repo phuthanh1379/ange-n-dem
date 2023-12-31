@@ -258,7 +258,6 @@ GameObject:
   - component: {fileID: 3907692792802636924}
   - component: {fileID: 7900755681328333936}
   - component: {fileID: 7525490348741331409}
-  - component: {fileID: 534414914145170476}
   - component: {fileID: 1338914240239882069}
   - component: {fileID: 8573821686434290536}
   m_Layer: 10
@@ -371,7 +370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profileController: {fileID: 7900755681328333936}
   physicsController: {fileID: 7525490348741331409}
-  attackController: {fileID: 534414914145170476}
+  attackController: {fileID: 0}
   moveController: {fileID: 1338914240239882069}
   animationController: {fileID: 8573821686434290536}
   deadDuration: 0.85
@@ -401,22 +400,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCollider: {fileID: 7782198775845654281}
---- !u!114 &534414914145170476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6729905132206024455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75e658c8616664ceea30ca2cddd9d4a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyCheck: {fileID: 6063339956305464235}
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!114 &1338914240239882069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,7 +412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb6d6e44534f74d7f92be5f87db27346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
   speed: 1
   direction: 1
 --- !u!114 &8573821686434290536

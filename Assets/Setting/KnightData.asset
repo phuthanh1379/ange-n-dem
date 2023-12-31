@@ -16,5 +16,4 @@ MonoBehaviour:
   maxHitPoint: 120
   damage: 20
   attackType: 0
-  characterModel: {fileID: 989607425702004854, guid: dc47a3a383be74baeb3c847474639d39, type: 3}
-  enemyCheckRadius: 2
+  enemyCheckRadius: 0.25
