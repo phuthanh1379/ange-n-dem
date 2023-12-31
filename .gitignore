@@ -1,0 +1,8 @@
+﻿*.zip
+*.csproj
+harumi-final-2d.sln
+UserSettings
+.idea
+Library
+Logs
+Temp
